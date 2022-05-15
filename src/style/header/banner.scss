@@ -1,0 +1,29 @@
+@use "../variable.scss" as *;
+
+.banner {
+  background-image: url("https://media.istockphoto.com/photos/yong-girl-exercising-kickbox-in-the-gym-picture-id1203613817?s=2048x2048");
+  background-repeat: no-repeat;
+  font-family: $sub-font;
+  background-size: 100vw 430px;
+  color: $main-text;
+  padding: 10px 25px;
+  &__hook {
+    font-family: $main-font;
+    width: 10ch;
+    font-size: 5ch;
+    line-height: 40px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  &__btn {
+
+    background: $main-bgColor;
+    width: fit-content;
+  }
+  &__btn:hover {
+    background: linear-gradient(180deg, #930C0C 0%, #FF2626 0.01%, #1D0101 100%);
+border-color:  transparentize($color: #000000, $amount: 0);
+
+  }
+}

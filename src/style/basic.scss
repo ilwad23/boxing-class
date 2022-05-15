@@ -1,0 +1,34 @@
+@use "./variable.scss" as *;
+body {
+  background-color: $sub-bgColor;
+  font-family: $main-font;
+  margin: 0;
+  padding: 0;
+}
+.btns {
+  background: $sub-bgColor;
+  font-family: $sub-font;
+  color: $main-text;
+  border: 3px solid $main-bgColor;
+  font-weight: 800;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 5px 8px;
+  border-radius: 10px;
+  transition: ease-in 35ms;
+  h3 {
+    padding: 0;
+    padding-left: 5px;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 32px;
+    text-align: center;
+    margin: 0;
+  }
+}
+.btns:active {
+  transform: scale(0.95);
+}
+
