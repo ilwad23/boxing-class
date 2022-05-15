@@ -13,6 +13,7 @@ function MainContent() {
           enim tincidunt.
         </p>
       </div>
+      <div>
       <Info
         img={
           "https://www.clipartmax.com/png/full/100-1001847_boxing-glove-kickboxing-cartoon-punch-cartoon-boxing-gloves.png"
@@ -24,9 +25,10 @@ function MainContent() {
           "Lorem ipsum dolor sit amet",
         ]}
       />
+
       <Info
         img={
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5oMdJde24l-3T6MNr5eaqBz6fBDAEUktcpg&usqp=CAU"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5oMdJde24l-3T6MNr5eaqBz6fBDAEUktcpg&usqp=CAU"
         }
         title="Our prices"
         points={[
@@ -35,6 +37,7 @@ function MainContent() {
         ]}
       />
 
+        </div>
       <a href="https://www.instagram.com/stfeyes/" className="mainContent__btn btns">
         <Icon icon="ant-design:instagram-filled" className="icon" height="38" />
         <h3>Check It Out</h3>
